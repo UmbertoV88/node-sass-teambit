@@ -1,0 +1,46 @@
+main {
+    background-color: #FFE7D2;
+    text-align: center;
+    padding-top: 1px;
+
+    .container {
+        padding-bottom: 100px;
+        border-bottom: 1px solid #BDB5AF;
+    }
+
+    img{
+        max-width: 100%;
+    }
+
+    .box-img {
+        display: flex;
+        margin-bottom: 100px;
+        padding: 0 10%;
+    }
+
+    .s-img {
+        width: 270px;
+        height: 190px;
+        margin: 0px 6%;
+
+        img {
+            height: 130px;
+        }
+
+        p{
+            margin-top: 30px;
+        }
+
+
+    }
+
+    h2 {
+        margin: 100px 0;
+        font-size: 26px;
+    }
+}
+
+.b-img {
+    width: 280px;
+    margin: 0 auto;
+}
