@@ -17,6 +17,7 @@
 }
 
 .buttons {
+  background-color: #30488F;
   display: -webkit-box;
   display: flex;
   height: 35px;
@@ -26,6 +27,7 @@
   padding-left: 10px;
   font-size: 14px;
   font-weight: bold;
+  color: white;
 }
 
 .buttons img,
@@ -36,6 +38,10 @@
 
 .buttons :hover {
   background-color: #233669;
+}
+
+a {
+  text-decoration: none;
 }
 
 header {
@@ -63,5 +69,51 @@ header {
 .button-navbar {
   color: #30488F;
   background-color: white;
+}
+
+.voce-nav,
+.tendina {
+  color: #58402C;
+  font-size: 14px;
+  margin: 0 20px;
+  font-weight: bold;
+}
+
+.menu {
+  position: relative;
+}
+
+.tendina {
+  list-style: none;
+  display: none;
+  position: absolute;
+  left: -30px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.menu:hover .tendina {
+  display: block;
+}
+
+.jumbo-left,
+.jumbo-right {
+  width: 40%;
+  margin-bottom: auto;
+}
+
+h1,
+h3 {
+  color: #583F2C;
+  margin: 5% 0;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 22px;
 }
 

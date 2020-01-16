@@ -22,3 +22,29 @@ header {
     background-color: white;
 
 }
+
+.voce-nav,
+.tendina{
+    color: #58402C;
+    font-size: 14px;
+    margin: 0 20px;
+    font-weight: bold;
+}
+.menu {
+    position: relative;
+}
+
+.tendina {
+    list-style: none;
+    display:none;
+    position: absolute;
+    left: -30px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+
+.menu:hover .tendina{
+    display: block;
+}
