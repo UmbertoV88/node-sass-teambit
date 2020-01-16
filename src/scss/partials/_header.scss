@@ -1,0 +1,24 @@
+header {
+    height: 80px;
+    border-bottom: 1px solid #BDB5AF;
+}
+
+
+.header-left,
+.header-right{
+    height: 80px;
+    width: 40%;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+.header-right {
+    flex-direction: row-reverse;
+}
+
+.button-navbar{
+    color: #30488F;
+    background-color: white;
+
+}
