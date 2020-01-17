@@ -70,6 +70,13 @@ header {
           align-items: center;
 }
 
+.header-logo {
+  background-image: url(https://teambit.io/wp-content/themes/teambeat/img/logo.svg);
+  height: 30px;
+  width: 110px;
+  background-repeat: no-repeat;
+}
+
 .header-right {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;

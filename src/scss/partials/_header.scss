@@ -16,6 +16,13 @@ header {
     align-items: center;
 }
 
+.header-logo{
+    background-image: url(https://teambit.io/wp-content/themes/teambeat/img/logo.svg);
+    height: 30px;
+    width: 110px;
+    background-repeat: no-repeat;
+}
+
 .header-right {
     flex-direction: row-reverse;
 }
