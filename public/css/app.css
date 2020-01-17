@@ -1,3 +1,5 @@
+/*General*/
+
 * {
   margin: 0;
   padding: 0;
@@ -50,6 +52,8 @@ a {
   text-decoration: none;
   color: #583F2C;
 }
+
+/*Header*/
 
 header {
   width: 100%;
@@ -120,6 +124,8 @@ header {
   display: block;
 }
 
+/*Jumbo*/
+
 #jumbo {
   padding-top: 150px;
   background-color: white;
@@ -163,6 +169,8 @@ h1 {
 h3 {
   font-size: 22px;
 }
+
+/*Main*/
 
 main {
   background-color: #FFE7D2;
@@ -209,4 +217,8 @@ main h2 {
   width: 280px;
   margin: 0 auto;
 }
+
+/*Section*/
+
+/*Footer*/
 
