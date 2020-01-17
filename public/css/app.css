@@ -47,6 +47,8 @@
 
 .buttons:hover {
   background-color: #233669;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 a {
@@ -56,6 +58,10 @@ a {
 
 a:hover {
   text-decoration: none;
+}
+
+.blue:hover {
+  color: #30488F;
 }
 
 /*Header*/

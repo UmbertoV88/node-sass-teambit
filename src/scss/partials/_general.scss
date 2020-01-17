@@ -44,14 +44,19 @@
 
 .buttons:hover{
     background-color: #233669;
+    transition: 0.5s;
 }
 
 
 a {
     text-decoration: none;
     color: #583F2C;
+    &:hover{
+        text-decoration: none;
+
+    }
 }
 
-a:hover{
-    text-decoration: none;
+.blue:hover{
+    color: #30488F;
 }
