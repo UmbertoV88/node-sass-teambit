@@ -10705,9 +10705,7 @@ return jQuery;
 
 var $ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
 
-$(document).ready(function () {
-  alert("ciao");
-});
+$(document).ready(function () {});
 
 /***/ }),
 
