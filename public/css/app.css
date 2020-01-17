@@ -42,15 +42,20 @@
 .buttons span {
   align-self: center;
   padding-right: 5px;
+  color: white;
 }
 
-.buttons :hover {
+.buttons:hover {
   background-color: #233669;
 }
 
 a {
   text-decoration: none;
   color: #583F2C;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 /*Header*/
@@ -93,8 +98,12 @@ header {
   margin: 0;
 }
 
-.button-navbar span {
+.button-navbar .sign-up {
   color: #30488F;
+}
+
+.button-navbar:hover .sign-up {
+  color: white;
 }
 
 .voce-nav,
@@ -221,4 +230,6 @@ main h2 {
 /*Section*/
 
 /*Footer*/
+
+/*Bootstrap*/
 

@@ -31,10 +31,14 @@ header {
     background-color: white;
     width: 90px;
     margin: 0;
-    span{
+    .sign-up{
         color: #30488F;
-    }
 
+    }
+}
+
+.button-navbar:hover .sign-up{
+    color: white;
 }
 
 .voce-nav,
