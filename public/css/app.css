@@ -159,7 +159,8 @@ header {
 }
 
 .jumbo-left a {
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-right: 61px;
   float: left;
 }
 
@@ -242,54 +243,54 @@ main h2 {
   position: relative;
 }
 
-.margin-r .section-left,
-.margin-r .section-right {
+.margin-r .content-left,
+.margin-r .content-right {
   height: 550px;
   float: left;
 }
 
-.section-left,
-.sec-section-right {
+.content-left,
+.sec-content-right {
   width: 60%;
 }
 
-.section-right,
-.sec-section-left {
+.content-right,
+.sec-content-left {
   width: 40%;
 }
 
-.section-left img {
+.content-left img {
   width: 770px;
   position: absolute;
   left: -90px;
 }
 
-.section-right img {
+.content-right img {
   width: 60%;
   margin: 50px;
 }
 
-/*seconda section con margine a sinistra*/
+/*seconda content con margine a sinistra*/
 
 .margin-l {
   margin-left: 20%;
-  padding: 100px 0;
+  padding-top: 100px;
   position: relative;
 }
 
-.margin-l .sec-section-left,
-.margin-l .sec-section-right {
+.margin-l .sec-content-left,
+.margin-l .sec-content-right {
   height: 550px;
   float: left;
 }
 
-.sec-section-right img {
+.sec-content-right img {
   width: 770px;
   position: absolute;
   right: -80px;
 }
 
-.sec-section-left img {
+.sec-content-left img {
   width: 60%;
   margin: 50px;
 }
