@@ -6,6 +6,10 @@
     color: #58402C;
 }
 
+body{
+    position: relative;
+}
+
 .container {
     margin: 0 10%;
 }
@@ -63,4 +67,12 @@ a {
 
 li{
     list-style: none;
+}
+
+.disactive::before{
+    display: none;
+}
+
+.active::before {
+    display: inline-block;
 }
