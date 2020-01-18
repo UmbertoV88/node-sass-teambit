@@ -311,20 +311,18 @@ section {
   text-align: center;
   background-color: white;
   margin: 0 30%;
-  border: 1px solid black;
-  border-radius: 5px;
+  border: 1px solid #BEB5B0;
+  border-radius: 10px;
   padding: 25px;
 }
 
 #blog p {
   margin-bottom: 20px;
+  text-align: left;
+  font-size: 14px;
 }
 
-.user {
-  width: 38px;
-}
-
-.botton-blog {
+.button-blog {
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: center;
@@ -332,8 +330,19 @@ section {
   margin: 30px 0 15px;
 }
 
-.botton-blog .buttons:last-of-type {
+.button-blog .buttons:last-of-type {
   margin: 0;
+}
+
+.user {
+  display: -webkit-box;
+  display: flex;
+}
+
+.user .user-picture {
+  width: 38px;
+  height: 38px;
+  margin-right: 15px;
 }
 
 /*Bootstrap*/
