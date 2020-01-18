@@ -235,7 +235,7 @@ main h2 {
   margin: 0 auto;
 }
 
-/*Section*/
+/*Content*/
 
 .margin-r {
   margin-right: 20%;
@@ -296,6 +296,45 @@ main h2 {
 }
 
 /*Footer*/
+
+/*Section*/
+
+section {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  margin-top: 60px;
+  background-color: #FCE7D2;
+  text-align: center;
+}
+
+#blog {
+  text-align: center;
+  background-color: white;
+  margin: 0 30%;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 25px;
+}
+
+#blog p {
+  margin-bottom: 20px;
+}
+
+.user {
+  width: 38px;
+}
+
+.botton-blog {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  margin: 30px 0 15px;
+}
+
+.botton-blog .buttons:last-of-type {
+  margin: 0;
+}
 
 /*Bootstrap*/
 

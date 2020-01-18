@@ -1,56 +1,35 @@
-.margin-r{
-    margin-right: 20%;
-    padding-top: 100px ;
-    position: relative;
+section {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-top: 60px;
+    background-color: #FCE7D2;
+    text-align: center;
 
-    .content-left,
-    .content-right{
-        height: 550px;
-        float: left;
+}
+#blog{
+    text-align: center;
+    background-color: white;
+    margin: 0 30%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 25px;
+
+    p{
+        margin-bottom: 20px;
     }
 }
 
-.content-left,
-.sec-content-right{
-    width: 60%;
+.user {
+    width: 38px;
 }
 
-.content-right,
-.sec-content-left{
-    width: 40%;
-}
+.botton-blog {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 15px;
 
-.content-left img{
-    width: 770px;
-    position: absolute;
-    left: -90px;
-}
-
-.content-right img{
-     width: 60%;
-     margin: 50px;
-}
-
-/*seconda content con margine a sinistra*/
-.margin-l{
-    margin-left: 20%;
-    padding-top: 100px;
-    position: relative;
-
-    .sec-content-left,
-    .sec-content-right{
-        height: 550px;
-        float: left;
+    .buttons:last-of-type{
+        margin: 0;
     }
-}
 
-.sec-content-right img{
-    width: 770px;
-    position: absolute;
-    right:-80px;
-}
-
-.sec-content-left img{
-     width: 60%;
-     margin: 50px;
 }

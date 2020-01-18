@@ -1,0 +1,56 @@
+.margin-r{
+    margin-right: 20%;
+    padding-top: 100px ;
+    position: relative;
+
+    .content-left,
+    .content-right{
+        height: 550px;
+        float: left;
+    }
+}
+
+.content-left,
+.sec-content-right{
+    width: 60%;
+}
+
+.content-right,
+.sec-content-left{
+    width: 40%;
+}
+
+.content-left img{
+    width: 770px;
+    position: absolute;
+    left: -90px;
+}
+
+.content-right img{
+     width: 60%;
+     margin: 50px;
+}
+
+/*seconda content con margine a sinistra*/
+.margin-l{
+    margin-left: 20%;
+    padding-top: 100px;
+    position: relative;
+
+    .sec-content-left,
+    .sec-content-right{
+        height: 550px;
+        float: left;
+    }
+}
+
+.sec-content-right img{
+    width: 770px;
+    position: absolute;
+    right:-80px;
+}
+
+.sec-content-left img{
+     width: 60%;
+     margin: 50px;
+}
