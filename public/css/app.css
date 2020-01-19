@@ -462,3 +462,13 @@ section {
   position: fixed;
 }
 
+/*Page not found*/
+
+.not-found-img {
+  width: 100%;
+  position: fixed;
+  z-index: 20;
+  top: 0;
+  display: none;
+}
+
